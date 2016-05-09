@@ -14,4 +14,4 @@ por
 fetch = +refs/heads/*:refs/remotes/origin/*
 url = http://username:password@git.repository.url/repo.git
 
-
+Editado
