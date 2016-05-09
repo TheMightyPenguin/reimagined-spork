@@ -14,4 +14,13 @@ por
 fetch = +refs/heads/*:refs/remotes/origin/*
 url = http://username:password@git.repository.url/repo.git
 
-Editado
+O usar lo siguiente 
+
+$ git config credential.helper store
+$ git push http://example.com/repo.git
+Username: <type your username>
+Password: <type your password>
+
+[several days later]
+$ git push http://example.com/repo.git
+[your credentials are used automatically]
